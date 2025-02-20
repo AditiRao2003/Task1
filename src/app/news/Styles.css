@@ -1,0 +1,14 @@
+@keyframes scrollUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  .animate-scroll {
+    animation: scrollUp 8s linear infinite;
+  }
+  .group:hover .animate-scroll {
+    animation-play-state: paused;
+  }
