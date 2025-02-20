@@ -16,12 +16,12 @@ const HeaderSection = () => {
                 भारत सरकार
               </p>
             </div>
-            <div className="border-r-[2px] border-gray-700 pr-3">
+            <div className="border-r-[1.5px] border-gray-700 pr-3">
               <p className="xl:text-[12px] lg:text-[12px] md:text-[12px] text-[10px]">
                 रक्षा मंत्रालय
               </p>
             </div>
-            <div className="border-r-[2px] border-gray-700 pr-3">
+            <div className="border-r-[1.5px] border-gray-700 pr-3">
               <p className="xl:text-[12px] lg:text-[12px] md:text-[12px] text-[10px]">
                 GOVERNMENT OF INDIA
               </p>

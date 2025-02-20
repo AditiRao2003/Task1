@@ -266,6 +266,28 @@ const MobileViewNavbar = () => {
           </button>
         </div>
       </nav>
+      <div className=" bg-blue-600 py-[4px]">
+        <marquee className=" text-white text-[14px] font-[600]">
+          <div className=" flex gap-16">
+            <div className="flex gap-1">
+              <img src="/Images/new.gif" className="h-6 w-10"></img>
+              <p>
+                Live Streaming of 11th All India DAD Badminton Tournament (Men &
+                Women) at Lucknow w.e.f. 18th to 21st February,2025{" "}
+              </p>
+            </div>
+            <div className="flex gap-1">
+              <img src="/Images/new.gif" className="h-6 w-10"></img>
+              <p> रक्षा लेखा महानियंत्रक का नववर्ष संदेश </p>
+            </div>
+
+            <div className="flex gap-1">
+              <img src="/Images/new.gif" className="h-6 w-10"></img>
+              <p>कार्यभार ग्रहण : रक्षा लेखा विशेष महानियंत्रक. </p>
+            </div>
+          </div>
+        </marquee>
+      </div>
 
       <div
         className={`lg:flex ${
@@ -363,6 +385,8 @@ const MobileViewNavbar = () => {
           ))}
         </ul>
       </div>
+
+      
     </div>
   );
 };
